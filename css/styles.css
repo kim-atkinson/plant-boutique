@@ -40,7 +40,7 @@ nav {
 nav a {
     color: #ffffff;
     text-decoration: none;
-    margin: 5px 32px;
+    margin: 5px 32px 5px 32px;
 }
 
 main {
@@ -52,7 +52,7 @@ main {
 }
 
 main.open {
-    transform: translate(240px, 0)''
+    transform: translate(240px, 0);
 }
 
 
