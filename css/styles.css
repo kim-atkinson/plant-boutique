@@ -48,10 +48,12 @@ main {
   z-index: 1; 
   background-color: #ffffff;
   min-height: 100vh;
+  transition: transform 0.5s;
 
 }
 
 main.open {
+    /* Moves the main section to the right */
     transform: translate(240px, 0);
 }
 
