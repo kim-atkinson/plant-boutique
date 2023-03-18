@@ -16,7 +16,7 @@ body {
     
     background-color: #ffffff;
     color: #2a2a2a; 
-
+    overflow-x: hidden;
 }
 
 nav {
@@ -71,4 +71,19 @@ main.open {
 /* Challenge: How do you get the menu on top? */
 /* Challenge: Open both the ain and menu at same time */
 
+a.toggle-nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 24px;
+    text-decoration: none;
+    color: #2a2a2a;
 
+}
+
+
+a.toggle-nav img {
+    margin: 0 5px 0 0;
+    vertical-align: middle;
+
+}
