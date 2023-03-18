@@ -122,3 +122,18 @@ a.button {
     padding: 10px 15px;
     border-radius: 3px;
 }
+
+div.slides {
+    height: 475px; 
+    position: relative;
+}
+
+div.slides img {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+div.slides img:first-child {
+    z-index: 1;
+}
