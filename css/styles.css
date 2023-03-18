@@ -22,9 +22,9 @@ body {
 nav {
     position: fixed;
     top: 0; 
-    left: 0; 
+    left: -240px; 
     width: 240px; 
-    height: 100vh; 
+    height: 100vh;     
     background-color: #00b98d;
     color: #ffffff; 
 
@@ -35,6 +35,9 @@ nav {
     display: flex;
     flex-direction: column;
     justify-content: center;
+
+    transition: left 0.5s;
+    z-index: 2;
 }
 
 nav a {
@@ -42,6 +45,11 @@ nav a {
     text-decoration: none;
     margin: 5px 32px 5px 32px;
 }
+
+nav.open {
+    left: 0;
+}
+
 
 main {
   position: relative; 
@@ -59,6 +67,8 @@ main.open {
 
 
 
-
+/* Challenge: Play around with the position of the menu. How do you get things on the right side */
+/* Challenge: How do you get the menu on top? */
+/* Challenge: Open both the ain and menu at same time */
 
 
