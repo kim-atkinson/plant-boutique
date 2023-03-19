@@ -23,3 +23,14 @@ slideArea.addEventListener("click", function () {
     images[currentSlide].style.zIndex = z   
     images[currentSlide].style.animation = "fade 0.5s"
 })
+
+
+// When mouse goes over the slude area, the images will go in a random place
+slideArea.addEventListener("mouseover", function () {
+    images.forEach((image) => {
+        const x = 100 * Math.random() - 50
+        const y = 100 * Math.random() - 50
+
+        image.style.transform = `translate(${x}px, ${y}px)`
+    })
+})
