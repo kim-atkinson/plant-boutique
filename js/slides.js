@@ -14,6 +14,10 @@ slideArea.addEventListener("click", function () {
         currentSlide = 0
     }
     z = z + 1
+    //  Remove the animation from the style for EVERY IMAGE
+    images.forEach((image) => {
+        image.style.animation = ""
+    })
 
     // Pick the right image
     images[currentSlide].style.zIndex = z   
